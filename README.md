@@ -22,3 +22,36 @@ no terminal. Se tudo estiver certo, deverá aparecer:
     1 ?-
 
 Insira no terminal [undertale]. (ficará `1 ?- [undertale].`), deve retornar `true.`.
+
+Prints do código funcionando com exemplos:
+
+![alt text](/img/image.png)
+
+Na print acima, temos que o personagem Toriel poupou todos os humanos. Com isso, confirma-se que Toriel = Toriel.
+
+
+![alt text](/img/image2.png)
+
+De acordo com os fatos, Frisk matou um monstro e poupou outro (logo, nem matou todos nem poupou todos). Ou seja, por definição, Frisk está na rota Neutra.
+
+
+![alt text](/img/image3.png)
+
+Frisk é humano, logo não é monstro.
+
+
+![alt text](img/image4.png)
+
+Sans é monstro, logo não é humano.
+
+
+![alt text](/img/image5.png)
+
+Frisk não fez nada para ter a inimizade de Toriel.
+
+
+![alt text](/img/image6.png)
+
+Frisk não fez nada para ter a amizade de Papyrus (não ser inimigo != ser amigo).
+
+
