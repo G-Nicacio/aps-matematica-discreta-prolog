@@ -100,7 +100,6 @@ determined_is_h_or_m_or_f(X) :-
 killed(sans, X) :-
   human(X),
   genocidal(X),
-  alias(s, S),
   spared(X, S).
 
 %%%% FÓRMULA 7
@@ -110,9 +109,8 @@ integrity_monster_not_human(X) :- monster(X), \+ human(X).
 
 %%%% FÓRMULA 8
 % ∀x∀y∃z( C(x,y) ∧ K(z,y) → ¬F(x,z) )
-not_friend(X, Z) :-
-  parent(X, Y),
-  killed(Z, Y).
+not_friend(X, Z) :- parent(X, Y), killed(Z, Y).
+not_friend(Z, X) :- parent(X, Y), killed(Z, Y).
 
 %%%% FÓRMULA 9
 % ∀x∀y( H(x) ∧ M(y) ∧ P(x) → F(y,x) )
